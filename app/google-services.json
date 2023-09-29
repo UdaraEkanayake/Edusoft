@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "493019528057",
+    "project_id": "edusoft-b701a",
+    "storage_bucket": "edusoft-b701a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493019528057:android:e9f65a8aa12650ad05cda8",
+        "android_client_info": {
+          "package_name": "com.example.edusoft"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANkgfdYj7kYS0PzZwN0gLEv0vVCSRSLW8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

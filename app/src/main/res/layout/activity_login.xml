@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/login"
+    tools:context=".LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_login_head"
+            android:layout_margin="30dp"
+            android:text="Please enter your details to login"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_login_email"
+            android:layout_marginTop="50dp"
+            android:padding="6dp"
+            android:layout_below="@+id/textView_login_head"
+            android:textColor="@color/white"
+            android:text="Email*"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_login_email"
+            android:layout_below="@id/textView_login_email"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:background="@drawable/border"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView_login_password"
+            android:layout_marginTop="20dp"
+            android:padding="6dp"
+            android:layout_below="@+id/editText_login_email"
+            android:textColor="@color/white"
+            android:text="Password*"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText_login_password"
+            android:layout_below="@id/textView_login_password"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="6dp"
+            android:textSize="16sp"
+            android:background="@drawable/border"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:id="@+id/btnLoginNew"
+            android:layout_below="@+id/editText_login_password"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"/>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/proBar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:elevation="10dp"
+            android:visibility="gone"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>
